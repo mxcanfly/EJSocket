@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<server>
-	<property name="port" value="3986" /><!--服务器监听端口-->
-	<property name="session_time_out" value="15000" /><!--会话超时时间 毫秒-->
-	<property name="status_refresh_interval" value="100" /><!--断开后,每过多少毫秒判断一次是否连接成功-->
-	<property name="socket_so_timeout" value="4500" /><!--Scoket最大阻塞时间,理论值应该是客户端发送心跳包加1.5-2秒-->
-</server>
